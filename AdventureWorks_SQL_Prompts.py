@@ -3,7 +3,7 @@ import pandas as pd
 
 filepath = 'C:/Users/Public/Documents/PostgreSQL/Adventure Works Data/'
 
-conn = pg2.connect(database='postgres', user='postgres',password='python2021!')
+conn = pg2.connect(database='postgres', user='postgres',password='password')
 cur = conn.cursor()
 
 def CreateDataFrame(fetch = 10):
